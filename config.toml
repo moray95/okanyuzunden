@@ -1,0 +1,10 @@
+baseURL = 'https://moray95.github.io/okanyuzunden/'
+languageCode = 'tr-tr'
+title = 'Burada herşey Okan yüzünden!'
+theme = "hugo-book"
+
+[params]
+  BookSearch = false
+
+[outputs]
+    home = ["json", "html"]
