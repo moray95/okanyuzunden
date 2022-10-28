@@ -1,0 +1,63 @@
+---
+title: "Makyajsız yakalandı!"
+date: 2022-10-28T23:38:35+03:00
+---
+
+<h2>Şok şok şok, ünlü şirketin ünlü backendcisi iş çıkışı makyajsız yakalandı!</h2>
+<p>
+Şok şok şok, ünlü şirketin ünlü backendcisi Okan iş çıkışında makyajsız yakalandı!
+</p>
+
+<center>
+<a id="btn-0" class="book-btn btn btn-primary" onclick='show(0, this); hideButton("btn-0"); showButton("btn-1")'>Devamını oku</a>
+</center>
+
+<p id="0" hidden>
+Usta backendci yoğun mesai ve sabahlama sonrası makyajının kalmasının mümkün olmadığı
+söyledi! "Herkes zaten bütün fotolarını şopluyor, benikini de şoplarsınız. Backend'e geçip
+melek yüzlü şeytanlar ile çalışmaya başlayınca bu haller çok normal" dedi.
+</p>
+
+<center>
+  <a id="btn-1" onclick='show(1, this); hideButton("btn-1"); showButton("btn-2")' hidden>Devamını oku</a>
+</center>
+<p id="1" hidden>
+Okan, ünlü şirkette çok mutlu bir devopscu olarak işe başlamıştı. Ancak, melek yüzlü şeytan iş arkaşının
+eşi de devopscu olarak işe başlayınca backend'e geçmek zorunda kaldı. Birçok kişi bunun çok büyük
+bir komple olduğunu düşünüyor. Daha önceki sohbetimizde konu hakkında "Ünviersitede hiç böyle şeyler
+öğretmiyorlar" diyerek sitem etmişti.
+</p>
+
+<center>
+  <a id="btn-2" onclick='show(2, this); hideButton("btn-2"); showButton("btn-3")' hidden>Devamını oku</a>
+</center>
+<p id="2" hidden>
+  Bu sayfayı yazan kişi bu kadar fazla arka arkaya çıkan butonu yazmak için gerektiğinden fazla
+  vakit harcayıp, frontend'den nefret ettiğini bir kez daha doğrulamış oldu. Ancak Okan için herşeye
+  değer diyip bu paragrafı yazmaya da devam etti.
+</p>
+
+
+<center>
+  <a id="btn-3" onclick='show(3, this); hideButton("btn-3");' hidden>Devamını oku</a>
+</center>
+<p id="3" hidden>
+  <img src="/makyajsiz.png">
+</p>
+
+
+<script>
+  function showButton(id) {
+    document.getElementById(id).className = "book-btn btn btn-primary"
+    document.getElementById(id).hidden = false
+  }
+
+  function hideButton(id) {
+    document.getElementById(id).className = ""
+    document.getElementById(id).hidden = true
+  }
+
+  function show(id, e) {
+    document.getElementById(id).hidden = false
+  }
+</script>
