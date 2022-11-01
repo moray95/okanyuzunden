@@ -1,5 +1,5 @@
 ---
-title: "Burclar"
+title: "Burç Yorumları"
 date: 2022-11-01T16:31:52+03:00
 # bookComments: false
 # bookSearchExclude: false
@@ -65,4 +65,4 @@ Okan ‘ın kuzey düğümünün etkisiyle başkalarının yaptığı hataların
 
 ## KALAMAR (20 Şubat-20 Mart)
 
-Gece haritasında görünen Okan dönüşüne göre iş hayatında başarılı bir dönem seni bekliyor. İzin alacağın tarihlere dikkat ederek çalışma arkadaşlarından övgüleri toplayacaksın.
+Gece haritasında görünen Okan dönüşüne göre screen lock etmeyi hep atladığın gözlerden kaçmıyor. Şakalamada çığır açıcı yenilikler seni bekliyor.
